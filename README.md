@@ -4,7 +4,9 @@ CLI project scaffolding and build toolchain for Vicharak's Shrike FPGA Board and
 
 Designed to replace the Go Configure Software Hub GUI with a fully scriptable, terminal-driven workflow — write Verilog, edit pin constraints, type `make`, get bitstreams.
 
-**Status:** Beta &nbsp;·&nbsp; **License:** MIT &nbsp;·&nbsp; **Author:** [Vulcan Ignis](https://x.com/vulcanignis) ([@trholding](https://github.com/trholding) on GitHub)
+**Status:** Alpha &nbsp;·&nbsp; 
+**License:** MIT &nbsp;·&nbsp; 
+
 
 ---
 
@@ -240,6 +242,8 @@ The build pipeline is: **Verilator lint** → **Yosys synthesis** (EDIF netlist)
 Use at your own risk. Neither the author nor contributors accept responsibility for damaged or incorrectly programmed devices.
 
 ---
+
+**Author:** Vulcan Ignis
 
 ## License
 
