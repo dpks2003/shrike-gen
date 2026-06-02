@@ -19,6 +19,9 @@
 #   make clean        remove all build outputs (keeps source + constraints)
 #   make help         show this message
 
+#Setting Up default shell as bash 
+SHELL := /bin/bash
+
 # ── Context detection ─────────────────────────────────────────────────────────
 # The presence of a *.ffpga file is the canonical marker for a project dir.
 _FFPGA_FILE := $(firstword $(wildcard *.ffpga))
